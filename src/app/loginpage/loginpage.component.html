@@ -1,0 +1,234 @@
+<router-outlet></router-outlet>
+
+<div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0 justify-content-center" href="#">
+            <img src="https://dcassetcdn.com/design_img/552765/153100/153100_3751953_552765_image.jpg" height="51"
+              alt="MDB Logo" loading="lazy" />
+          </a>
+          <h2>Dresskart</h2>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+  
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+
+
+  
+        </div>
+        <!-- Right elements -->
+      </div>    
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </div>
+
+  <!----------------------------------------------------------------content----------------------------------------------------------->
+  <div class="p-5 text-center bg-image"
+  style="background-image: url();">
+   
+  <div class="" style="height: 550px;">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+        <div id="abc">
+<br><br><br>
+            <div class="text-center m-4"><h2>Login</h2></div>
+               <div class="text-center ">Please enter your e-mail and password: </div>
+               <br><br>
+                <input [(ngModel)]="email" class="form-control" placeholder="user name" id="login_acno">
+                <input [(ngModel)]="pswd"type="text" name="password" placeholder="password " class="form-control mt-3" ><br>
+                <a style="color: black;">forgot password?</a>
+                <button class="btn btn-lg  btn-dark form-control mt-3 me-5" type="button" (click)="login()" >login</button>
+            <div class="m-3 text-center">
+                <p>Don't have an account?</p>
+                <a style="color: black;" href="register">Register</a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="col-4"></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+  <!------------------------------------------------------------------------footer--------------------------------------------------------->
+
+  <br><br><br><hr>
+<!-- Footer -->
+<footer class="bg-light text-center text-black">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-dark mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Follow Us</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              For any queries or order updates get in touch with our team at:
+            </li>
+            <li>
+              <h6>Email:customerservice@alamodelabel.in</h6>
+            </li>
+            <li>
+              We don't have any customer care number.
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Dresskart by someone</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>Need an Exchange? Click Here</li>
+            <li>Search</li>
+            <li>About Us</li>
+            <li>Shipping Policy</li>
+            <li>Return / Exchange Policy</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Newsletter</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>Subscribe to receive updates, access to exclusive deals, and more.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact us on</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>1234567890</li>
+            <li>dresskart@gmail.com</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+<!-- <app-dashboard></app-dashboard> -->
+
+
